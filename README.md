@@ -43,6 +43,10 @@ This will launch a local Ethereum network, simulating a blockchain environment.
 ## Deploying the Multisig Wallet
 In the original terminal session, deploy the multisig wallet contract:
 ```sh
+npx hardhat clean
+npx hardhat compile
+```
+```sh
 npx hardhat run scripts/deploy.js --network localhost
 ```
 Monitor the local blockchain (in the other terminal) for new blocks as transactions are executed.
