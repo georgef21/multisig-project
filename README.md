@@ -66,8 +66,8 @@ npx hardhat run scripts/executeSignerUpdate.js --network localhost
 
 ## Notes
 
-Ensure your Hardhat node is running in a seperate shell tab before executing any scripts. 
-Ensure you are performing these commands in the directory of the cloned repo
-You need to have 2 shell tabs opened ( one for seeing blocks getting added to the local blockchain netwrok , one for running the scripts )
-this smart contract is designed to only be run locally as it's logic is not audited for advanced securty considerations and no advanced signer logic implemented.
+1. Ensure your Hardhat node is running in a seperate shell tab before executing any scripts. 
+2. Ensure you are performing these commands in the directory of the cloned repo
+3. You need to have 2 shell tabs opened ( one for seeing blocks getting added to the local blockchain netwrok , one for running the scripts )
+4. this smart contract is designed to only be run locally as it's logic is not audited for advanced securty considerations and no advanced signer logic implemented.
 
