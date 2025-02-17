@@ -1,4 +1,4 @@
-# Multisig Wallet Deployment with Hardhat
+# Multisig contract Deployment with Hardhat
 
 This project demonstrates the deployment and interaction with a multisig wallet on a local blockchain using Hardhat.
 
@@ -40,7 +40,7 @@ npx hardhat node
 ```
 This will launch a local Ethereum network, simulating a blockchain environment.
 
-## Deploying the Multisig Wallet
+## Deploying the Multisig contract
 In the original terminal session, deploy the multisig wallet contract:
 ```sh
 npx hardhat clean
@@ -60,7 +60,7 @@ npx hardhat run scripts/approve.js --network localhost
 npx hardhat run scripts/executeTx.js --network localhost
 ```
 
-## Updating Signers in the Multisig Wallet
+## Updating Signers
 If you need to update the signers, execute the following scripts (in order not all at once):
 ```sh
 npx hardhat run scripts/proposeSignerUpdate.js --network localhost
